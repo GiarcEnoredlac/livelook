@@ -18,21 +18,39 @@ html, body {
 }
  
 #container {
-    position: fixed;
-    width: 500px;
-    height: 300px;
-    top: 50%;
-    left: 50%;
-    margin-top: -150px;
-    margin-left: -250px;
-    text-align: center;
+ position: fixed;
+ width: 500px;
+ height: 300px;
+ top: 50%;
+ left: 50%;
+ margin-top: -150px;
+ margin-left: -250px;
+ text-align: center;
+ -webkit-animation-name: bounceInDown;
+ -webkit-animation-fill-mode: both;
+ -webkit-animation-duration: 1.5s;
+ -webkit-animation-iteration-count: 1;
+ -webkit-animation-timing-function: linear;
+ -moz-animation-name: bounceInDown;
+ -moz-animation-fill-mode: both;
+ -moz-animation-duration: 1.5s;
+ -moz-animation-iteration-count: 1;
+ -moz-animation-timing-function: linear;
+ animation-name: bounceInDown;
+ animation-fill-mode: both;
+ animation-duration: 1.5s;
+ animation-iteration-count: 1;
+ animation-timing-function: linear;
 }
 h1 {
     font-size: 90px;
     font-weight: bold;
     color: #fff;
     text-shadow: 0 1px 4px #000;
-    margin-top: 20px;}
+    margin-top: 20px;
+    text-align: center;
+}
+  
  
 p {
     width: 80%;
@@ -44,8 +62,12 @@ p {
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
 }
 p a {
-    color: #fff;
-    border-bottom: 2px solid #2da1ec;
+   color: #fff;
+ border-bottom: 2px solid #2da1ec;
+ -webkit-transition: all .4s ease;
+ -moz-transition: all .4s ease;
+ -o-transition: all .4s ease;
+ transition: all .4s ease;
 }
 p a:hover {
  color: #2da1ec;
@@ -146,6 +168,10 @@ input[type=submit]:active {
 }
  
 input {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 25px;
+   font-family: "Helvetica Neue", Helvetica, sans-serif;
+ font-size: 25px;
+ -webkit-transition: all .4s ease;
+ -moz-transition: all .4s ease;
+ -o-transition: all .4s ease;
+ transition: all .4s ease;
 }

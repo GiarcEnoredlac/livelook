@@ -89,9 +89,9 @@ p a:hover {
  
 input[type=email] {
   outline: none;
-  width: 80%;
+  width: 70%;
   padding: 15px;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 35px;
   color: #fff;
   border: none;
   float: left;
@@ -119,7 +119,7 @@ input[type=email]:focus {
  
 input[type=submit] {
   position: absolute;
-  margin-left: -100px;
+  margin-left: -90px;
   margin-top: 5px;
   font-size: 25px;
   color: #222;
